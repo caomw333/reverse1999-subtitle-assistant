@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">1999 英语字幕</string>
+    <string name="channel_name">字幕识别</string>
+    <string name="stop_subtitles">停止字幕</string>
+    <string name="start_subtitles">启动字幕</string>
+    <string name="stopped">字幕已停止</string>
+    <string name="starting">正在加载本地英文模型…</string>
+    <string name="listening">正在监听游戏内音</string>
+    <string name="no_audio">暂未捕获游戏内音。请播放一段英文配音。</string>
+    <string name="no_speech">已捕获游戏内音，暂未识别到英文台词。</string>
+    <string name="projection_stopped">系统已结束采集。可重新启动字幕。</string>
+    <string name="capture_failed">无法启动内音采集。请重新授权后再试。</string>
+    <string name="model_failed">无法加载本地英文模型。请重新安装测试 APK 后再试。</string>
+    <string name="overlay_required">请在系统设置中允许「1999 英语字幕」显示在其他应用上层，然后返回。</string>
+    <string name="audio_required">需要 Android 的录音权限才能捕获游戏内音。</string>
+    <string name="capture_denied">系统采集授权已取消。</string>
+    <string name="no_game">未检测到《重返未来：1999》。安装游戏后返回此处。</string>
+    <string name="game_missing">当前游戏已卸载，请重新选择。</string>
+    <string name="game_label">字幕来源</string>
+    <string name="asr_mode">ASR · 识别英文配音</string>
+    <string name="ocr_mode">OCR · 识别中文并译成英文</string>
+    <string name="select_mode">请至少勾选一个识别模式。</string>
+    <string name="ocr_starting">正在加载中文识别和翻译模型…</string>
+    <string name="ocr_running">正在识别画面中的中文字幕</string>
+    <string name="mixed_running">正在同时识别配音和中文字幕</string>
+    <string name="ocr_failed">OCR 启动失败。请重新授权屏幕采集后再试。</string>
+    <string name="ocr_fallback">OCR 不可用，继续识别英文配音。</string>
+    <string name="asr_fallback">ASR 不可用，继续识别中文字幕。</string>
+    <string name="ocr_comparison_close">两路措辞接近</string>
+    <string name="ocr_comparison_different">两路措辞有差异</string>
+    <string name="ocr_comparison_translation">OCR 译文 · %1$s</string>
+    <string name="ocr_translation_label">OCR 译文 ·</string>
+    <string name="learning_records">本地学习记录</string>
+    <string name="saved_sentences">本地句子</string>
+    <string name="learning_vocabulary">词库</string>
+    <string name="search_vocabulary">搜索单词</string>
+    <string name="load_older_sentences">加载更早的句子</string>
+    <string name="learning_loading">正在读取学习记录…</string>
+    <string name="no_saved_sentences">完成识别或翻译后的句子会出现在这里。</string>
+    <string name="no_matching_words">没有匹配的单词。</string>
+    <string name="learning_load_error">读取学习记录失败，请重试。</string>
+    <string name="word_row">%1$s\n%2$s · %3$d 次 · %4$s</string>
+    <string name="word_exposure_count">累计接触 %1$d 次</string>
+    <string name="no_word_examples">还没有包含这个词的字幕。</string>
+    <string name="no_word_meaning">词表暂无中文释义。</string>
+    <string name="ocr_region">框选 OCR 字幕区</string>
+    <string name="ocr_region_instruction">在游戏画面上拖出一个框，圈住中文字幕。</string>
+    <string name="ocr_region_save">保存识别范围</string>
+    <string name="ocr_unpaired">OCR 补位 · 未配对</string>
+    <string name="word_muted">已取消高亮</string>
+    <string name="word_highlighted">高亮开启</string>
+    <string name="mute_highlight">不再高亮</string>
+    <string name="resume_highlight">恢复高亮</string>
+    <string name="preview_subtitles">预览字幕位置</string>
+    <string name="preview_text">The storm is coming.</string>
+    <string name="preview_second">We should keep moving before the storm reaches the city. Follow the river until you see the old bridge, and wait for me there.</string>
+    <string name="collapse_history">收起字幕历史</string>
+    <string name="expand_history_accessibility">%1$s。点按展开历史，拖动可移动字幕。</string>
+    <string name="background_transparency">字幕底色透明度</string>
+    <string name="background_transparency_value">字幕底色透明度 %1$d%%</string>
+    <string name="subtitle_size">字幕字号</string>
+    <string-array name="subtitle_sizes">
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+        <item>特大</item>
+    </string-array>
+    <string name="export_log">导出运行日志</string>
+    <string name="no_log">暂无运行日志。先启动字幕，再回来导出。</string>
+    <string name="log_saved">运行日志已保存。</string>
+    <string name="log_save_failed">保存日志失败，请换个位置重试。</string>
+    <string name="intro">两种识别可单独使用。双开时对比同一段台词，优先显示配音识别。</string>
+    <string name="instructions">开启 OCR 时，请保留游戏中文字幕并授权共享整个屏幕。拖动字幕可移动，轻点可查看历史。</string>
+</resources>

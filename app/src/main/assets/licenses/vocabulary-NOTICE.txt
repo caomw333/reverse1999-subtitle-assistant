@@ -1,0 +1,13 @@
+The app ships normalized single-word entries from C3H3-AI/Vocab WordBank.
+https://github.com/C3H3-AI/vocab-wordbank
+See vocabulary-wordbank-MIT.txt for its MIT license.
+
+CET-4, CET-6 and the supplementary senior list come from KyleBing/english-vocabulary.
+https://github.com/KyleBing/english-vocabulary
+See vocabulary-kylebing-BSD.txt for its BSD 3-Clause license.
+
+Vocab WordBank attributes its Gaokao 3500 list to lilinji/English.
+https://github.com/lilinji/English
+
+The APK keeps English headwords, level tags, and Chinese definitions for CET
+entries. It filters out phrases and uses the two school lists as exclusions.

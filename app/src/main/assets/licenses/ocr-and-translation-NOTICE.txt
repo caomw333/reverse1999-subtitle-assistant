@@ -1,0 +1,17 @@
+Chinese OCR: PP-OCRv4 detection and recognition by PaddlePaddle,
+distributed as ONNX models by RapidAI in rapidocr-onnxruntime 1.4.4.
+Apache License 2.0 (see vosk/Apache-2.0.txt for the license text).
+https://pypi.org/project/rapidocr-onnxruntime/1.4.4/
+https://github.com/PaddlePaddle/PaddleOCR
+
+Chinese-to-English translation: opus-mt-zh-en by Helsinki-NLP, licensed
+under Creative Commons Attribution 4.0 International.
+https://huggingface.co/Helsinki-NLP/opus-mt-zh-en
+https://creativecommons.org/licenses/by/4.0/
+Quantized ONNX conversion published by Xenova.
+https://huggingface.co/Xenova/opus-mt-zh-en
+The source token weights and shared vocabulary are repacked for this app.
+
+ONNX Runtime 1.23.2, Copyright (c) Microsoft Corporation.
+https://github.com/microsoft/onnxruntime
+Distributed under the MIT License.

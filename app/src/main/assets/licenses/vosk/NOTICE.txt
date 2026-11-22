@@ -1,0 +1,4 @@
+This APK includes Vosk Android 0.3.75 and the vosk-model-small-en-us-0.15 model, distributed under the Apache License, Version 2.0.
+
+Runtime: https://github.com/alphacep/vosk-api
+Model: https://alphacephei.com/vosk/models
